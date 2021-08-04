@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <section className="navbar">
         <nav>
-          Angel Figueroa
+          Angelica Figueroa
           <input type="checkbox" id="nav-menu" />
           <label htmlFor="nav-menu" id="nav-icon">
             <span></span>
@@ -24,8 +24,8 @@ function App() {
         </nav>
       </section>
       <section className="heading">
-        <h1 className="name">HELLO, I'M Angelica Figueroa</h1>
-        <h2 id="title">M. Ed School Counseling Candidate</h2>
+        <h1 className="name">HELLO, I AM Angelica Figueroa</h1>
+        <h2 id="title">Master Ed School Counseling Candidate</h2>
 
         <img src={profilepic} alt="portfolio of candidate" />
         <p>PPS-SC Credential (Pending)</p>
