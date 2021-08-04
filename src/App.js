@@ -2,9 +2,12 @@ import React from "react";
 import profilepic from "./images/grad-pic.png";
 import usclogo from "./images/PrimShield-Mono_SmallUse_CardOnTrans_RGB.png";
 import "./styles/app.css";
+import fileword from "./images/file-word-regular.svg";
 
 import recletter from "./downloads/fig-letter-rec.pdf";
 import casestudy from "./downloads/fig-case-study.pdf";
+
+import legalissues from "./downloads/courses/legal-ethical-issues.pdf";
 
 function App() {
   return (
@@ -23,8 +26,7 @@ function App() {
       <section className="heading">
         <h1 className="name">HELLO, I'M Angelica Figueroa</h1>
         <h2 id="title">M. Ed School Counseling Candidate</h2>
-      </section>
-      <section className="accolades">
+
         <img src={profilepic} alt="portfolio of candidate" />
         <p>PPS-SC Credential (Pending)</p>
         <p>BA in Communicative Disorders</p>
@@ -115,8 +117,8 @@ function App() {
           I learned how to examine current legal, ethical, and other
           professional issues in the practice of counseling and psychotherapy.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a href={legalissues} dowload target="_blank" rel="noopener noreferrer">
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Introduction to School Counseling</h5>
         <p className="course-description">
