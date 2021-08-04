@@ -1,7 +1,10 @@
 import React from "react";
-import profilepic from "./images/profile-pic.jpeg";
+import profilepic from "./images/grad-pic.png";
 import usclogo from "./images/PrimShield-Mono_SmallUse_CardOnTrans_RGB.png";
 import "./styles/app.css";
+
+import recletter from "./downloads/fig-letter-rec.pdf";
+import casestudy from "./downloads/fig-case-study.pdf";
 
 function App() {
   return (
@@ -18,14 +21,14 @@ function App() {
         </nav>
       </section>
       <section className="heading">
-        <h1 className="name">HELLO, I'M Angel Figueroa</h1>
-        <h2 id="title">School Counselor Candidate</h2>
+        <h1 className="name">HELLO, I'M Angelica Figueroa</h1>
+        <h2 id="title">M. Ed School Counseling Candidate</h2>
       </section>
       <section className="accolades">
         <img src={profilepic} alt="portfolio of candidate" />
-        <p>School Counseling Candidate</p>
-        <p>PPS-SC Credential</p>
-        <p>BA</p>
+        <p>PPS-SC Credential (Pending)</p>
+        <p>BA in Communicative Disorders</p>
+
         <a href="mailto: af75257@usc.edu">af75257@usc.edu</a>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           <img src="" alt="linkedin icon" />
@@ -56,108 +59,194 @@ function App() {
       <section className="about">
         <h3 className="about-heading">About</h3>
         <p className="about-text">
-          With a passion for equity, social justice, and education, I envision
-          an exciting future in school counseling. Having a strong background
-          working with children for over five years, and earning an education in
-          both psychology and school counseling, I have both the skill set and
-          drive required to work with children of all ages. My theoretical
-          approach to school counseling is centered on Solution Focused, Choice
-          Theory, and Family Systems. It is my belief that these three theories
-          come together and allow us to understand our students and help them
-          become empowered and well-adjusted citizens. The areas I work best in
-          are, college and career advising, small group implementation, and
-          conflict resolution. I would love to work with marginalized, minority
-          populations in order to advocate for them and help provide equitable
-          access to education and resources. My goal for implementing well-being
-          at my school is to promote and advocate for more mindful activities
-          throughout the day for both students and staff, as well as build our
-          community resources to help supplement the support students receive at
-          the school. I am also currently working on a yoga teacher training
-          course so that I may also provide free classes to all students.
+          My name is Angelica Figueroa. I am dedicated and compassionate with 5+
+          years of professional experience in the education system. Working as a
+          Teacher Assistant for LAUSD in the South Central Los Angeles area, I
+          had the opportunity to interact with many students who have been
+          struggling to cope from their tramas which ultimately hinder their
+          learning. These students desperately required intensive guidance in
+          order to make academic and social progress. Working with these
+          students opened my eyes to the fact that students that experience
+          emotional and behavioral impairments, their patients, and their
+          teachers require guidance and support in order to help these students
+          evolve and have not only academic, but life success. Therefore,
+          inspired me to pursue a Masters of Education in Counseling at the
+          University of Southern California. I am positive that this degree will
+          empower me to assist and advocate for students because I believe every
+          student should have access to high quality education. I will make it
+          my mission to learn effective ways to guide students, their parents,
+          and teachers in order for students to have an equitable education
+          experience. My counseling philosophy is student-centered and solution
+          focused. I believe in a comprehensive counseling program that
+          addresses the academic, career, and personal/social development of all
+          students.
         </p>
       </section>
       <section className="case-study-app">
         <h3 className="case-heading">Case Study Application</h3>
         <p className="case-text">
-          For this case study, I wrote about "Teresa", a 14 year-old freshman
-          who has been brought to my attention because of some changes in her
-          academics and behavior. She is normally a high-achieving student who
-          participates in sports and activities in school. She lives at home
-          with both parents who are very supportive and push her to excel in
-          school. Through my conversations with Teresa it was noted that she
-          experiencing some issues with a childhood best friend, and they are no
-          longer on speaking terms. This rupture in their friendship has caused
-          Teresa a lot of internal conflict and turmoil and this was trickling
-          into her academics and level of participation and engagement. My
-          approach for this student would combine Solution-Focused Theory and
-          Choice Theory. I would address Teresa's social and emotional
-          well-being by helping her work out how she is feeling and then provide
-          her with the appropriate coping skills so she can learn how to manage
-          her emotions and stress. The next thing I would do is help her develop
-          appropriate communication skills so that she can advocate for herself
-          and communicate how she is feeling in an effective way so that she can
-          ask for help and express what she needs. I would also provide an
-          opportunity to mediate a conversation between her and her best friend
-          if it is something that she is comfortable with. I would then help her
-          academically by creating a plan with her so that she can work on her
-          grades and get back on track. I would focus on her resiliency and help
-          her feel empowered by highlighting her willingness to work with me and
-          I would point out the improvement in her grades when appropriate. ​
+          My client was self-referred to the school counselor. My client is a
+          female named Violetta. She is 17 years old, Hispanic, and enrolled as
+          a Junior in high school. She was born and raised in Los Angeles and
+          has been going to the Los Angeles High School Academy for 3 years.
+          Violettat has come to therapy for support to address her parents about
+          applying to University/ College.
+          <br />
+          My approach for this student is Solution-Focused Theory. I would
+          address Violetta's social and emotional well-being by helping her work
+          out how she is feeling and then provide her with the appropriate
+          coping skills so she can learn how to manage her emotions and stress.
+          The next thing I would do is help her develop appropriate
+          communication skills so that she can advocate for herself and
+          communicate how she is feeling in an effective way so that she can ask
+          for help and express what she needs. ​
         </p>
         <div className="case-study-info">
           You can find intial case study here ➡
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            CASE_STUDY
+          <a href={casestudy} dowload>
+            CASE STUDY
           </a>
         </div>
       </section>
       <section className="key-course-assignments">
         <h3 className="course-heading">Key Course Assignment</h3>
-        <h5 className="course-title">Research Methods</h5>
+        <h5 className="course-title">Legal and Ethical Issues in Counseling</h5>
         <p className="course-description">
-          A highlight of this class was coming up with my research proposal and
-          discovering a passion for research as a whole
+          I learned how to examine current legal, ethical, and other
+          professional issues in the practice of counseling and psychotherapy.
         </p>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           DOC
         </a>
-        <h5 className="course-title">Group Counseling</h5>
+        <h5 className="course-title">Introduction to School Counseling</h5>
         <p className="course-description">
-          A highlight for me was creating a group counseling curriculum and
-          being able to implement it in class with my peers.
+          The highlight of this course was learning to recognize the role of a
+          professional school counselor and well-being.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">Creating Communities of Interest</h5>
+        <p className="course-description">
+          In this course, I used a case study to help improve well-being by
+          utilizing SMART goals.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">The Counseling Process</h5>
+        <p className="course-description">
+          I learned how to engage in the therapeutic process by connecting with
+          others and strengthening through role plays.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">
+          Human Development Theory in School Counseling
+        </h5>
+        <p className="course-description">
+          The highlight of this course was learning about the theory of human
+          growth and development across the lifespan.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">Theories in Counseling</h5>
+        <p className="course-description">
+          I learned about a number of different theories that can be applied in
+          practices.
         </p>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           DOC
         </a>
         <h5 className="course-title">Learning and Individual Differences</h5>
         <p className="course-description">
-          A highlight was learning about all of the different learning styles,
-          applying them as a student, and also being able to use them during my
-          fieldwork to help support students in their learning in real-time
+          In this course I learned about the nature of learning and motivation
+          in school contexts.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">Politics of Difference</h5>
+        <p className="course-description">
+          I learned about interrelationships among race and ethnicity,
+          socioeconomic status, ability, gender, sexuality, and other dimensions
+          of diversity with the goal of facilitating access and equity in
+          various learning settings.
         </p>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           DOC
         </a>
         <h5 className="course-title">
-          Counselign for College & Career Readiness
+          Counseling and Collaboration in the School Setting
         </h5>
         <p className="course-description">
-          A highlight was learning about different methods to counsel students
-          for college and career readiness because this is one area I am
-          passionate about
+          In this course, I learned the importance of consultation and
+          collaboration in an effort to promote school success and well- being.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">Cross Cultural Counseling</h5>
+        <p className="course-description">
+          The highlight of this course was learning about different cultures,
+          language factors that affect, and cross- cultural counseling
+          approaches.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">
+          Counseling for College and Career Readiness 1
+        </h5>
+        <p className="course-description">
+          I learned about theoretical frameworks of individual counseling and
+          impacts of college and career readiness.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">Research Methods and Data Analysis</h5>
+        <p className="course-description">
+          The highlight of this course was being able to create a research
+          proposal.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">Group Counseling</h5>
+        <p className="course-description">
+          In this course, I learned practical and theoretical concepts of group
+          counseling and facilitation in a group counseling session.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">
+          Counseling for College and career Readiness 2
+        </h5>
+        <p className="course-description">
+          The highlight of this course was becoming familiar with college and
+          career readiness.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          DOC
+        </a>
+        <h5 className="course-title">
+          School Connectedness, Climate, Classroom Management
+        </h5>
+        <p className="course-description">
+          In this course I learned about moving beyond discipline and
+          punishment, and utilizing methods in a positive learning environment.
         </p>
         <a href="http://" target="_blank" rel="noopener noreferrer">
           DOC
         </a>
       </section>
       <section className="letter-of-rec">
-        <h3 className="letters-heading">Letters of Recommedation</h3>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          Letter1
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          Letter2
-        </a>
+        <h3 className="letters-heading">Letter of Recommedation</h3>
+        <a href={recletter}>Link to download Letter</a>
       </section>
       <section className="resume">
         <h3 className="resume-heading">Resume</h3>
