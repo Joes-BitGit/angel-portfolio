@@ -1,9 +1,6 @@
-:root {
-  --isabelline: #f8edeb;
-}
 .App {
   /* background: var(--isabelline); */
-  background: rgb(221, 221, 221);
+  background: var(--cardinal-red);
   display: grid;
   place-items: center;
 }
