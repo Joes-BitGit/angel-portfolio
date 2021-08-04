@@ -1,0 +1,16 @@
+:root {
+  --isabelline: #f8edeb;
+}
+.App {
+  /* background: var(--isabelline); */
+  background: rgb(221, 221, 221);
+  display: grid;
+  place-items: center;
+}
+
+#usc-logo {
+  height: 50%;
+  width: 50%;
+  max-width: 450px;
+  max-height: 150px;
+}
