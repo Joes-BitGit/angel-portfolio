@@ -5,6 +5,15 @@
   place-items: center;
 }
 
+section {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.navbar {
+  width: 100%;
+}
+
 #usc-logo {
   height: 50%;
   width: 50%;
