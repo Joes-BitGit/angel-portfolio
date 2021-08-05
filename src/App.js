@@ -2,12 +2,28 @@ import React from "react";
 import profilepic from "./images/grad-pic.png";
 import usclogo from "./images/PrimShield-Mono_SmallUse_CardOnTrans_RGB.png";
 import "./styles/app.css";
+// svg of document
 import fileword from "./images/file-word-regular.svg";
 
 import recletter from "./downloads/fig-letter-rec.pdf";
 import casestudy from "./downloads/fig-case-study.pdf";
+import resume from "./downloads/angel-resume.pdf";
 
 import legalissues from "./downloads/courses/legal-ethical-issues.pdf";
+import introcounseling from "./downloads/courses/intro-school-counseling.pdf";
+import communityinterest from "./downloads/courses/community-interest.pdf";
+import counselingprocess from "./downloads/courses/counseling-process.pdf";
+import humandevelopment from "./downloads/courses/human-development.pdf";
+import counselingtheory from "./downloads/courses/counseling-theory.pdf";
+import individualdiff from "./downloads/courses/individual-differences.pdf";
+import politics from "./downloads/courses/politics.pdf";
+import collaboration from "./downloads/courses/counseling-collaboration.pdf";
+import crosscultural from "./downloads/courses/cross-cultural.pdf";
+import readiness1 from "./downloads/courses/readiness-1.pdf";
+import researchmethods from "./downloads/courses/research-methods.pdf";
+import groupcounseling from "./downloads/courses/group-counseling.pdf";
+import readiness2 from "./downloads/courses/readiness-2.pdf";
+import ccc from "./downloads/courses/connect-climate-classroom.pdf";
 
 function App() {
   return (
@@ -125,24 +141,39 @@ function App() {
           The highlight of this course was learning to recognize the role of a
           professional school counselor and well-being.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={introcounseling}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Creating Communities of Interest</h5>
         <p className="course-description">
           In this course, I used a case study to help improve well-being by
           utilizing SMART goals.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={communityinterest}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">The Counseling Process</h5>
         <p className="course-description">
           I learned how to engage in the therapeutic process by connecting with
           others and strengthening through role plays.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={counselingprocess}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">
           Human Development Theory in School Counseling
@@ -151,24 +182,39 @@ function App() {
           The highlight of this course was learning about the theory of human
           growth and development across the lifespan.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={humandevelopment}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Theories in Counseling</h5>
         <p className="course-description">
           I learned about a number of different theories that can be applied in
           practices.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={counselingtheory}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Learning and Individual Differences</h5>
         <p className="course-description">
           In this course I learned about the nature of learning and motivation
           in school contexts.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={individualdiff}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Politics of Difference</h5>
         <p className="course-description">
@@ -177,8 +223,8 @@ function App() {
           of diversity with the goal of facilitating access and equity in
           various learning settings.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a href={politics} dowload target="_blank" rel="noopener noreferrer">
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">
           Counseling and Collaboration in the School Setting
@@ -187,8 +233,13 @@ function App() {
           In this course, I learned the importance of consultation and
           collaboration in an effort to promote school success and well- being.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={collaboration}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Cross Cultural Counseling</h5>
         <p className="course-description">
@@ -196,8 +247,13 @@ function App() {
           language factors that affect, and cross- cultural counseling
           approaches.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={crosscultural}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">
           Counseling for College and Career Readiness 1
@@ -206,24 +262,34 @@ function App() {
           I learned about theoretical frameworks of individual counseling and
           impacts of college and career readiness.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a href={readiness1} dowload target="_blank" rel="noopener noreferrer">
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Research Methods and Data Analysis</h5>
         <p className="course-description">
           The highlight of this course was being able to create a research
           proposal.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={researchmethods}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">Group Counseling</h5>
         <p className="course-description">
           In this course, I learned practical and theoretical concepts of group
           counseling and facilitation in a group counseling session.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a
+          href={groupcounseling}
+          dowload
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">
           Counseling for College and career Readiness 2
@@ -232,8 +298,8 @@ function App() {
           The highlight of this course was becoming familiar with college and
           career readiness.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a href={readiness2} dowload target="_blank" rel="noopener noreferrer">
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
         <h5 className="course-title">
           School Connectedness, Climate, Classroom Management
@@ -242,17 +308,21 @@ function App() {
           In this course I learned about moving beyond discipline and
           punishment, and utilizing methods in a positive learning environment.
         </p>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          DOC
+        <a href={ccc} dowload target="_blank" rel="noopener noreferrer">
+          <img src={fileword} alt="" width={120} height={120} />
         </a>
       </section>
       <section className="letter-of-rec">
         <h3 className="letters-heading">Letter of Recommedation</h3>
-        <a href={recletter}>Link to download Letter</a>
+        <a href={recletter} dowload target="_blank" rel="noopener noreferrer">
+          Download Letter
+        </a>
       </section>
       <section className="resume">
         <h3 className="resume-heading">Resume</h3>
-        <img src="" alt="resume of candidate" />
+        <a href={resume} dowload target="_blank" rel="noopener noreferrer">
+          Download resume
+        </a>
       </section>
       <section className="work-experience">
         <h3 className="work-heading">Samples of Work</h3>
