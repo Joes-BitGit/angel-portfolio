@@ -3,7 +3,8 @@ import profilepic from "./images/grad-pic.png";
 import usclogo from "./images/PrimShield-Mono_SmallUse_CardOnTrans_RGB.png";
 import "./styles/app.css";
 // svg of document
-import fileword from "./images/file-word-regular.svg";
+import fileword from "./images/file-pdf-regular.svg";
+import linkedin from "./images/LinkedIn-Logos/LI-In-Bug.png";
 
 import recletter from "./downloads/fig-letter-rec.pdf";
 import casestudy from "./downloads/fig-case-study.pdf";
@@ -11,7 +12,6 @@ import resume from "./downloads/angel-resume.pdf";
 
 import legalissues from "./downloads/courses/legal-ethical-issues.pdf";
 import introcounseling from "./downloads/courses/intro-school-counseling.pdf";
-import communityinterest from "./downloads/courses/community-interest.pdf";
 import counselingprocess from "./downloads/courses/counseling-process.pdf";
 import humandevelopment from "./downloads/courses/human-development.pdf";
 import counselingtheory from "./downloads/courses/counseling-theory.pdf";
@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <section className="navbar">
         <nav>
-          Angelica Figueroa
+          <div className="name">Angelica Figueroa</div>
           <input type="checkbox" id="nav-menu" />
           <label htmlFor="nav-menu" id="nav-icon">
             <span></span>
@@ -40,16 +40,22 @@ function App() {
         </nav>
       </section>
       <section className="heading">
-        <h1 className="name">HELLO, I AM Angelica Figueroa</h1>
-        <h2 id="title">Master Ed School Counseling Candidate</h2>
+        <h1 className="name">HELLO, I'M Angelica Figueroa</h1>
+        <h2 id="title">M. Ed School Counseling Candidate</h2>
 
         <img src={profilepic} alt="portfolio of candidate" />
         <p>PPS-SC Credential (Pending)</p>
         <p>BA in Communicative Disorders</p>
 
-        <a href="mailto: af75257@usc.edu">af75257@usc.edu</a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <img src="" alt="linkedin icon" />
+        <a href="mailto: figueroaangelica96@gmail.com">
+          figueroaangelica96@gmail.com
+        </a>
+        <a
+          href="https://www.linkedin.com/in/angelica-figueroa-643480211"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedin} alt="linkedin account for Angelica" width={32} />
         </a>
       </section>
       <section className="usc-program">
@@ -107,7 +113,7 @@ function App() {
           female named Violetta. She is 17 years old, Hispanic, and enrolled as
           a Junior in high school. She was born and raised in Los Angeles and
           has been going to the Los Angeles High School Academy for 3 years.
-          Violettat has come to therapy for support to address her parents about
+          Violetta has come to therapy for support to address her parents about
           applying to University/ College.
           <br />
           My approach for this student is Solution-Focused Theory. I would
@@ -121,7 +127,7 @@ function App() {
         </p>
         <div className="case-study-info">
           You can find intial case study here ➡
-          <a href={casestudy} dowload>
+          <a href={casestudy} dowload target="_blank" rel="noopener noreferrer">
             CASE STUDY
           </a>
         </div>
@@ -149,19 +155,7 @@ function App() {
         >
           <img src={fileword} alt="" width={120} height={120} />
         </a>
-        <h5 className="course-title">Creating Communities of Interest</h5>
-        <p className="course-description">
-          In this course, I used a case study to help improve well-being by
-          utilizing SMART goals.
-        </p>
-        <a
-          href={communityinterest}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
+
         <h5 className="course-title">The Counseling Process</h5>
         <p className="course-description">
           I learned how to engage in the therapeutic process by connecting with
@@ -324,21 +318,7 @@ function App() {
           Download resume
         </a>
       </section>
-      <section className="work-experience">
-        <h3 className="work-heading">Samples of Work</h3>
-        <div className="job-1">
-          <img src="" alt="poster of job1" />
-          <p className="job1-description"></p>
-        </div>
-        <div className="job-2">
-          <img src="" alt="poster of job2" />
-          <p className="job2-description"></p>
-        </div>
-        <div className="job-3">
-          <img src="" alt="poster of job3" />
-          <p className="job3-description"></p>
-        </div>
-      </section>
+
       <section className="footer">
         <h3 className="usc-heading">Contact</h3>
         <p>I'd Love to hear from you!</p>
