@@ -14,6 +14,21 @@ section {
   width: 100%;
 }
 
+.table-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-gray);
+  border-radius: 1%;
+}
+
 #usc-logo {
   height: 50%;
   width: 50%;

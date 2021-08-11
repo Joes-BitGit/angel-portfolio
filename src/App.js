@@ -134,177 +134,253 @@ function App() {
       </section>
       <section className="key-course-assignments">
         <h3 className="course-heading">Key Course Assignment</h3>
-        <h5 className="course-title">Legal and Ethical Issues in Counseling</h5>
-        <p className="course-description">
-          I learned how to examine current legal, ethical, and other
-          professional issues in the practice of counseling and psychotherapy.
-        </p>
-        <a href={legalissues} dowload target="_blank" rel="noopener noreferrer">
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">Introduction to School Counseling</h5>
-        <p className="course-description">
-          The highlight of this course was learning to recognize the role of a
-          professional school counselor and well-being.
-        </p>
-        <a
-          href={introcounseling}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
+        <div className="table-container">
+          <div className="course-container">
+            <h5 className="course-title">
+              Legal and Ethical Issues in Counseling
+            </h5>
+            <p className="course-description">
+              I learned how to examine current legal, ethical, and other
+              professional issues in the practice of counseling and
+              psychotherapy.
+            </p>
+            <a
+              href={legalissues}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">Introduction to School Counseling</h5>
+            <p className="course-description">
+              The highlight of this course was learning to recognize the role of
+              a professional school counselor and well-being.
+            </p>
+            <a
+              href={introcounseling}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
 
-        <h5 className="course-title">The Counseling Process</h5>
-        <p className="course-description">
-          I learned how to engage in the therapeutic process by connecting with
-          others and strengthening through role plays.
-        </p>
-        <a
-          href={counselingprocess}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">
-          Human Development Theory in School Counseling
-        </h5>
-        <p className="course-description">
-          The highlight of this course was learning about the theory of human
-          growth and development across the lifespan.
-        </p>
-        <a
-          href={humandevelopment}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">Theories in Counseling</h5>
-        <p className="course-description">
-          I learned about a number of different theories that can be applied in
-          practices.
-        </p>
-        <a
-          href={counselingtheory}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">Learning and Individual Differences</h5>
-        <p className="course-description">
-          In this course I learned about the nature of learning and motivation
-          in school contexts.
-        </p>
-        <a
-          href={individualdiff}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">Politics of Difference</h5>
-        <p className="course-description">
-          I learned about interrelationships among race and ethnicity,
-          socioeconomic status, ability, gender, sexuality, and other dimensions
-          of diversity with the goal of facilitating access and equity in
-          various learning settings.
-        </p>
-        <a href={politics} dowload target="_blank" rel="noopener noreferrer">
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">
-          Counseling and Collaboration in the School Setting
-        </h5>
-        <p className="course-description">
-          In this course, I learned the importance of consultation and
-          collaboration in an effort to promote school success and well- being.
-        </p>
-        <a
-          href={collaboration}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">Cross Cultural Counseling</h5>
-        <p className="course-description">
-          The highlight of this course was learning about different cultures,
-          language factors that affect, and cross- cultural counseling
-          approaches.
-        </p>
-        <a
-          href={crosscultural}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">
-          Counseling for College and Career Readiness 1
-        </h5>
-        <p className="course-description">
-          I learned about theoretical frameworks of individual counseling and
-          impacts of college and career readiness.
-        </p>
-        <a href={readiness1} dowload target="_blank" rel="noopener noreferrer">
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">Research Methods and Data Analysis</h5>
-        <p className="course-description">
-          The highlight of this course was being able to create a research
-          proposal.
-        </p>
-        <a
-          href={researchmethods}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">Group Counseling</h5>
-        <p className="course-description">
-          In this course, I learned practical and theoretical concepts of group
-          counseling and facilitation in a group counseling session.
-        </p>
-        <a
-          href={groupcounseling}
-          dowload
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">
-          Counseling for College and career Readiness 2
-        </h5>
-        <p className="course-description">
-          The highlight of this course was becoming familiar with college and
-          career readiness.
-        </p>
-        <a href={readiness2} dowload target="_blank" rel="noopener noreferrer">
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
-        <h5 className="course-title">
-          School Connectedness, Climate, Classroom Management
-        </h5>
-        <p className="course-description">
-          In this course I learned about moving beyond discipline and
-          punishment, and utilizing methods in a positive learning environment.
-        </p>
-        <a href={ccc} dowload target="_blank" rel="noopener noreferrer">
-          <img src={fileword} alt="" width={120} height={120} />
-        </a>
+          <div className="course-container">
+            <h5 className="course-title">The Counseling Process</h5>
+            <p className="course-description">
+              I learned how to engage in the therapeutic process by connecting
+              with others and strengthening through role plays.
+            </p>
+            <a
+              href={counselingprocess}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">
+              Human Development Theory in School Counseling
+            </h5>
+            <p className="course-description">
+              The highlight of this course was learning about the theory of
+              human growth and development across the lifespan.
+            </p>
+            <a
+              href={humandevelopment}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">Theories in Counseling</h5>
+            <p className="course-description">
+              I learned about a number of different theories that can be applied
+              in practices.
+            </p>
+            <a
+              href={counselingtheory}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">
+              Learning and Individual Differences
+            </h5>
+            <p className="course-description">
+              In this course I learned about the nature of learning and
+              motivation in school contexts.
+            </p>
+            <a
+              href={individualdiff}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">Politics of Difference</h5>
+            <p className="course-description">
+              I learned about interrelationships among race and ethnicity,
+              socioeconomic status, ability, gender, sexuality, and other
+              dimensions of diversity with the goal of facilitating access and
+              equity in various learning settings.
+            </p>
+            <a
+              href={politics}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">
+              Counseling and Collaboration in the School Setting
+            </h5>
+            <p className="course-description">
+              In this course, I learned the importance of consultation and
+              collaboration in an effort to promote school success and well-
+              being.
+            </p>
+            <a
+              href={collaboration}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">Cross Cultural Counseling</h5>
+            <p className="course-description">
+              The highlight of this course was learning about different
+              cultures, language factors that affect, and cross- cultural
+              counseling approaches.
+            </p>
+            <a
+              href={crosscultural}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">
+              Counseling for College and Career Readiness 1
+            </h5>
+            <p className="course-description">
+              I learned about theoretical frameworks of individual counseling
+              and impacts of college and career readiness.
+            </p>
+            <a
+              href={readiness1}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">Research Methods and Data Analysis</h5>
+            <p className="course-description">
+              The highlight of this course was being able to create a research
+              proposal.
+            </p>
+            <a
+              href={researchmethods}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">Group Counseling</h5>
+            <p className="course-description">
+              In this course, I learned practical and theoretical concepts of
+              group counseling and facilitation in a group counseling session.
+            </p>
+            <a
+              href={groupcounseling}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">
+              Counseling for College and career Readiness 2
+            </h5>
+            <p className="course-description">
+              The highlight of this course was becoming familiar with college
+              and career readiness.
+            </p>
+            <a
+              href={readiness2}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+          <div className="course-container">
+            <h5 className="course-title">
+              School Connectedness, Climate, Classroom Management
+            </h5>
+            <p className="course-description">
+              In this course I learned about moving beyond discipline and
+              punishment, and utilizing methods in a positive learning
+              environment.
+            </p>
+            <a
+              href={ccc}
+              dowload
+              target="_blank"
+              rel="noopener noreferrer"
+              classname="link-file"
+            >
+              <img src={fileword} alt="" width={120} height={120} />
+            </a>
+          </div>
+        </div>
       </section>
       <section className="letter-of-rec">
         <h3 className="letters-heading">Letter of Recommedation</h3>
