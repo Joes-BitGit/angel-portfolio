@@ -35,3 +35,7 @@ section {
   max-width: 450px;
   max-height: 150px;
 }
+
+.links {
+  color: var(--cardinal-gold);
+}
