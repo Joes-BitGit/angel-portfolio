@@ -29,15 +29,7 @@ function App() {
   return (
     <div className="App">
       <section className="navbar">
-        <nav>
-          <div className="name">Angelica Figueroa</div>
-          <input type="checkbox" id="nav-menu" />
-          <label htmlFor="nav-menu" id="nav-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </nav>
+        <nav></nav>
       </section>
       <section className="heading">
         <h1 className="name">HELLO, I'M Angelica Figueroa</h1>
@@ -47,7 +39,7 @@ function App() {
         <p>PPS-SC Credential (Pending)</p>
         <p>BA in Communicative Disorders</p>
 
-        <a href="mailto: figueroaangelica96@gmail.com">
+        <a href="mailto: figueroaangelica96@gmail.com" className="links">
           figueroaangelica96@gmail.com
         </a>
         <a
@@ -127,7 +119,13 @@ function App() {
         </p>
         <div className="case-study-info">
           You can find intial case study here ➡
-          <a href={casestudy} dowload target="_blank" rel="noopener noreferrer">
+          <a
+            href={casestudy}
+            dowload
+            target="_blank"
+            rel="noopener noreferrer"
+            className="links"
+          >
             CASE STUDY
           </a>
         </div>
@@ -382,22 +380,39 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="letter-of-rec">
-        <h3 className="letters-heading">Letter of Recommedation</h3>
-        <a href={recletter} dowload target="_blank" rel="noopener noreferrer">
-          Download Letter
-        </a>
-      </section>
-      <section className="resume">
-        <h3 className="resume-heading">Resume</h3>
-        <a href={resume} dowload target="_blank" rel="noopener noreferrer">
-          Download resume
-        </a>
-      </section>
+      <section className="letter-of-rec"></section>
+      <section className="resume"></section>
 
       <section className="footer">
-        <h3 className="usc-heading">Contact</h3>
-        <p>I'd Love to hear from you!</p>
+        <div className="">
+          <h3 className="letters-heading">Letter of Recommedation</h3>
+          <a
+            href={recletter}
+            dowload
+            target="_blank"
+            rel="noopener noreferrer"
+            className="links"
+          >
+            Download Letter
+          </a>
+        </div>
+
+        <div className="">
+          <h3 className="resume-heading">Resume</h3>
+          <a
+            href={resume}
+            dowload
+            target="_blank"
+            rel="noopener noreferrer"
+            className="links"
+          >
+            Download resume
+          </a>
+        </div>
+        <div className="">
+          <h3 className="usc-heading">Contact Me</h3>
+          <p>I'd love to hear from you!</p>
+        </div>
       </section>
     </div>
   );
